@@ -1,3 +1,39 @@
+-End system = host/pengguna terkoneksi dengan communication links dan packet switches
+-Saat user mengirim data,maka yang dikirim adalah data dan header data byte di setiap segmen
+-Packet switches come in many shapes and flavors, but the two most prominent types in today’s Internet are routers and link-layer switches.
+-Link-layer switches are typically used in access networks, while routers are typically used in the network core
+-e Internet run protocols that control the sending and receiving of information within the Internet. The Transmission Control Protocol (TCP) and the Internet Protocol (IP) are two of the most important protocols in the Internet.
+-End systems attached to the Internet provide a socket interface that specifies how a program running on one end system asks the Internet infrastructure to deliver data to a specific destination program running on another end system.
+-A protocol defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
+-The Network Edge:computer,tablet
+-Hosts are sometimes further divided into two categories: clients and servers
+-In a P2P architecture, there is minimal (or no) reliance on dedicated servers in data centers. Instead the application exploits direct communication between pairs of intermittently connected hosts, called peers. The peers are not owned by the service provider, but are instead desktops and laptops controlled by users, with most of the peers residing in homes, universities, and offices
+
+Network-layer service model
+Internet  “best effort” service model
+-No guarantees on: 
+i.	successful datagram delivery to destination
+ii.	timing or order of delivery
+iii.	bandwidth available to end-end flow
+How much buffering?
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Ffilter-icon-outline-filled-creative-elemet-big-data-icons-collection-premium-ui-ux-apps-software-infographics-160767150.jpg&imgrefurl=https%3A%2F%2Fwww.dreamstime.com%2Ffilter-icon-monochrome-style-design-big-data-collection-ui-pixel-perfect-simple-pictogram-web-ap-apps-software-print-usage-image126724542&tbnid=-LGk-waotG3vjM&vet=12ahUKEwjgttijhan4AhW3_jgGHYREBtQQMygFegUIARDQAQ..i&docid=W8Sm8aivtK_gNM&w=800&h=800&q=filter%20data%20icon&ved=2ahUKEwjgttijhan4AhW3_jgGHYREBtQQMygFegUIARDQAQ 
+ 
+Subnet
+ 
+	What’s a subnet ?
+	 
+•	 
+•	 
+•	device interfaces that can physically reach each other without passing through an intervening router
+
+NAT
+NAT: all devices in local network share just one IPv4 address as far as outside world is concerned
+
+ 
+
+butt,hey,do u weed??
+Cause we’d look cute together u know
+
    <readme-toc>
 
     <div data-target="readme-toc.content" class="Box mt-3 position-relative">
@@ -197,7 +233,6 @@
 
 
         <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1 dir="auto"><a id="user-content-project-capstone-c22-ps292" class="anchor" aria-hidden="true" href="#project-capstone-c22-ps292"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>PROJECT CAPSTONE C22-PS292</h1>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/Alstrometria/Lakon/main/Resource/Logo/Lakon.png"><img src="https://raw.githubusercontent.com/Alstrometria/Lakon/main/Resource/Logo/Lakon.png" alt="Our Logo" style="max-width: 100%;"></a></p>
 <h1 dir="auto"><a id="user-content-lakon" class="anchor" aria-hidden="true" href="#lakon"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>LAKON</h1>
 <p dir="auto">The rich cultural diversity of Indonesia has been a source of pride of ours since the ancient times, one of which is the wayang kulit culture. Wayang is an unique culture that tells the lives of previous figures with various kinds of characters and their own characteristics that can be used as media to convey messages, education, entertainment, and philosophical understanding.</p>
@@ -333,3 +368,4 @@
     </div>
 
   </readme-toc>
+
